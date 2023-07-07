@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1{
+    color: blue;
+    padding-top: 150px;
+    margin-left: 50px;
+ 
+  
+    
+}
+
+.lugares{
+    border: solid 2px black;
+    width: 10%;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    
+    
+   
+}
+.brasil,.pbrasil{
+    width: 27%;
+  margin-left: 50px;
+    
+}
+.espana,.pespana{
+    width: 27%;
+    margin-left: 50px;
+
+}
+.japon,.pjapon{
+    width: 27%;
+    margin-left: 50px;
+
+}
+
+.pbrasil,.pespana,.pjapon{
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.brasil,.espana,.japon{
+    margin-top: 33px ;
+    
+   
+}
+h2{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.abc{
+  
+    border: solid 2px black;
+    width: 100%;
+    padding: 30px;
+    text-align: left;
+    background-color: blue;
+    position: fixed;
+    margin-bottom: 300px;
+}
+.a{
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.b{
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color:aliceblue;
+    
+}
+
+.c{
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.compra1, .compra2, .compra3{
+    margin-left:289px ;
+    margin-top: 15px;
+    padding: 5px 2px 5px 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 30%;
+    border: solid 2px black;
+    
+}
+
+.todo1{
+    border: solid 1px gray;
+    padding: 50px;
+    padding-right: 80px;
+    margin: 150px;
+    margin-top: 0px;
+    
+    
+    
+    
+    
+}
+.todo2{
+    border: solid 1px gray;
+    padding: 50px;
+    padding-right: 80px;
+    margin: 150px;
+}
+.todo3{
+    border: solid 1px gray;
+    padding: 50px;
+    padding-right: 80px;
+    margin: 150px;
+    
+}
+.todo1a{
+    background-color: azure;
+   
+}
+.map{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.nos{
+    color: blue;
+    padding-top: 75px;
+    margin-left: 50px;
+  padding-bottom: 50px;
+}
+ul{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.inputs{
+    margin-top: 20px;
+    margin-left: 50px;
+   
+}
+.input1{
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+.input2{
+margin-bottom: 15px;
+}
+.input3{
+margin-bottom: 15px;
+}
+.gmail{
+    margin-left: 30px;
+    width: 25%;
+    height: 30px;
+
+}
+.name{
+width: 25%;
+height: 30px;
+margin-left: 15px;
+
+}
+.apellido{
+    margin-left: 15px;
+    width: 25%;
+    height: 30px;
+}
+.mensaje{
+    margin-left: 12px;
+    width: 25%;
+    height: 30px;
+    padding: 20px 0px 40px 0px;
+}
+.li{
+    margin-bottom: 125px;
+}
+.problema{
+    margin-bottom: 60px;
+}
+.nos{
+ padding-top: 150px;
+}
+    
