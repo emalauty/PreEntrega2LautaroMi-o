@@ -1,17 +1,22 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:ProximaNova,Arial,sans-serif;
+    box-sizing: border-box;
 }
 
-
 h1{
-    color: blue;
+    color: rgb(0, 0, 0);
     padding-top: 150px;
     margin-left: 50px;
  
   
     
+}
+.viaja{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size:50px;
 }
 
 .lugares{
@@ -28,118 +33,128 @@ h1{
     
    
 }
-.brasil,.pbrasil{
-    width: 27%;
-  margin-left: 50px;
+
+
+
     
-}
-.espana,.pespana{
-    width: 27%;
-    margin-left: 50px;
 
-}
-.japon,.pjapon{
-    width: 27%;
-    margin-left: 50px;
-
-}
-
-.pbrasil,.pespana,.pjapon{
-    margin-top: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.brasil,.espana,.japon,.francia{
     
-}
-.brasil,.espana,.japon{
-    margin-top: 33px ;
+    width: 100%;
+    border-radius: 7px;
+    height: 158px;
     
    
 }
-h2{
-    margin-top: 20px;
-    margin-left: 50px;
-}
+
+
 
 .abc{
-  
+    display: flex;
     border: solid 2px black;
     width: 100%;
     padding: 30px;
     text-align: left;
-    background-color: blue;
+    background-color: rgb(115, 115, 221);
     position: fixed;
     margin-bottom: 300px;
+    z-index: 4;
+    justify-content: start;
 }
+
 .a{
     margin-left: 10px;
     font-size: 30px;
     text-decoration: none;
     color: aliceblue;
+    
 }
 .b{
+   
     margin-left: 30px;
     font-size: 30px;
     text-decoration: none;
     color:aliceblue;
+    margin-top:10px;
     
 }
 
 .c{
+  
     margin-left: 30px;
     font-size: 30px;
     text-decoration: none;
     color: aliceblue;
-    
-}
-.compra1, .compra2, .compra3{
-    margin-left:289px ;
-    margin-top: 15px;
-    padding: 5px 2px 5px 2px;
-    font-family:Arial, Helvetica, sans-serif;
-    border-radius: 30%;
-    border: solid 2px black;
+    margin-top:10px;
     
 }
 
-.todo1{
-    border: solid 1px gray;
-    padding: 50px;
-    padding-right: 80px;
-    margin: 150px;
-    margin-top: 0px;
-    
-    
-    
-    
+.nav:hover{
+    color: rgba(255, 255, 255, 0.664);
     
 }
-.todo2{
-    border: solid 1px gray;
-    padding: 50px;
-    padding-right: 80px;
-    margin: 150px;
+
+
+
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.todo3{
-    border: solid 1px gray;
-    padding: 50px;
-    padding-right: 80px;
-    margin: 150px;
+.tod {
+    border: solid 1px rgb(216, 215, 215);
+    height: 400px;
+    width: 300px;
+    margin:10px 20px;
+    border-radius: 7px;
     
 }
+.tod:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.todo1 h2,h4,h5{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: large;
+}
+.todo2 h2,h4,h5{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: large;
+}
+.todo3 h2,h4,h5{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: large;
+}
+.todo4 h2,h4,h5{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: large}
+
+
+
 .todo1a{
     background-color: azure;
+
    
 }
 .map{
     margin-top: 20px;
     margin-left: 50px;
+    
 }
 
 
 .nos{
-    color: blue;
+    color: rgb(0, 0, 0);
     padding-top: 75px;
     margin-left: 50px;
-  padding-bottom: 50px;
+    padding-bottom: 50px;
+    width: 100%;
 }
 ul{
     margin-top: 20px;
@@ -168,14 +183,14 @@ margin-bottom: 15px;
 }
 .gmail{
     margin-left: 30px;
-    width: 25%;
+    width: 300px;
     height: 30px;
 
 }
 .name{
-width: 25%;
-height: 30px;
-margin-left: 15px;
+    width: 300px;
+    height: 30px;
+    margin-left: 15px;
 
 }
 .apellido{
@@ -185,8 +200,8 @@ margin-left: 15px;
 }
 .mensaje{
     margin-left: 12px;
-    width: 25%;
-    height: 30px;
+    width: 300px;
+    height: 80px;
     padding: 20px 0px 40px 0px;
 }
 .li{
@@ -199,3 +214,228 @@ margin-left: 15px;
  padding-top: 150px;
 }
     
+
+.link {
+    color: var(--color-secondary-dark);
+    text-decoration: none;
+    font-size: 14px ;
+    
+}
+
+hr {
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(173, 174, 175) ;
+    border: none;
+    
+}
+.todo1 h5{
+    font-size:larger;
+}
+.todo2 h5{
+    font-size:larger;
+}
+.todo3 h5{
+    font-size:larger;
+}
+.todo4 h5{
+    font-size:larger;
+    
+
+}
+.espacio{
+    width: 100%;
+    height: 35px;
+
+}
+
+
+
+
+.carrusel{
+      height: 500px;
+}
+
+.pie{
+    background-color: rgb(115, 115, 221);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    
+    
+    
+}
+.info{
+    color: aliceblue;
+    margin: 50px;
+    width: 25%;
+}
+.pg{
+    color: aliceblue;
+    margin: 100px;
+    width: 25%;
+    margin-top: 130px;
+    margin-left: 20px;
+    
+}
+.redes{
+    color: aliceblue;
+    width: 25%;
+    margin: 30px;
+    margin-top: 110px;
+    
+}
+i{
+    margin: 30px;
+    color: aliceblue;
+    
+}
+.ig:hover{
+    color: violet;
+}
+.wa:hover{
+    color: green;
+}
+.fb:hover{
+    color: blue;
+}
+.pg ul li{
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+}
+.copyright{
+    color: aliceblue;
+    margin: 25px;
+    margin-top: 100px;
+    
+}
+.logo-footer{
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    
+}
+.logo{
+        width: 64px;
+        height: 64px;
+        border-radius: 30px;
+}
+.sucursales{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 600px;
+    margin: 25px;
+    padding: 10px;
+    
+}
+.sucursales:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.todo-sucursales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mapa-sucursal{
+    width: 580px;
+    height: 300px;
+}
+
+.todo-nosotros{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px 0px 0px;
+    
+   
+}
+.contacto-nosotros{
+    width: 600px;
+    
+    
+    
+}
+.problema-nosotros{
+    width: 600px;
+    
+    
+    
+} 
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(6,200px) ;
+    grid-template-areas: "img1 img2 img3 img4"
+                         "img1 img2 img3 img4"
+                         "img5 img5 img3 img4"
+                         "img5 img5 img3 img4"
+                         "img5 img5 img3 img4"; 
+    
+}
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.consulta-nosotros{
+    margin-left: 15px;
+}
+button{
+    width: 100px;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+@media(max-width:1200px){
+
+}
+@media(max-width:992px){
+    .lugares{
+        width: 150px;
+    }
+    i{
+        margin: 20px;
+    }
+    .galeria{
+        width: 90%;
+        margin: 5%;
+    }
+}
+@media(max-width:768px){
+    .pg{
+        width: 50%;
+    }
+    .redes{
+        width: 50%;
+    }
+    .galeria{
+        height: 60%;
+    }
+}
+@media(max-width:576px){
+    .lugares{
+        margin-top: 0px;
+    }
+}

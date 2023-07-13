@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viaje Al Mundo - Inicio</title>
     <link rel="stylesheet" href="./paginas/nosotros.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="codigo.css">
-    <link rel="icon" href="./multimedia/favicon.jpg">
+    <link class="logo-favicon" rel="icon" href="./multimedia/favicon.jpg">
 
 <header>
     
 
     <nav>
         <div class="abc">
-        <a class="a" href="./index.html">
-            Inicio
-        </a>
-        <a class="b" href="./paginas/nosotros.html">
+            <a class="nav a" href="./index.html">
+            <img class="logo" src="./multimedia/favicon.jpg" alt="inicio">
+            </a>
+        <a class="nav b" href="./paginas/nosotros.html">
             Nosotros
         </a>
-        <a class="c" href="./paginas/sucursales.html">
+        <a class="nav c" href="./paginas/sucursales.html">
             Sucursales
         </a>
         </div>
@@ -30,61 +32,145 @@
 <body>
     <main>
         <h1 class="viaja">Viaja por el mundo!</h1>
-      
-        
-            <h2 class="lugares">     Lugares       </h2> 
-        <div class="todo1">
-            
-            <div class="todo1a">
-               
-            <h2>Brasil</h2>
-            <img class="brasil"src="./multimedia/brasil.jpg" alt="paisaje de brasil">
-            <p class="pbrasil"> En este maravilloso viaje a el hermoso pais de Brasil se te ofrece varias opciones de turismo entre ellas: actividades de aventura, 
-                ecoturismo, turismo de negocios y eventos, fiestas populares, de sol y playa, 
-                deportes, buceo, pesca y diversos patrimonios de la humanidad.</p>
 
-        
-        <a href="./paginas/sucursales.html">
-            <input class="compra1" type="button" value="Comprar">
-            </a>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carrusel carousel-item active">
+                <img src="./multimedia/turistico1.jpg" class="d-block w-100" alt="imagen1">
+              </div>
+              <div class="carrusel carousel-item">
+                <img src="./multimedia/turistico2.jpg" class="d-block w-100" alt="imagen2">
+              </div>
+              <div class="carrusel carousel-item">
+                <img src="./multimedia/turistico3.jpg" class="d-block w-100" alt="imagen3">
+              </div>
+              <div class="carrusel carousel-item">
+                <img src="./multimedia/turistico4.jpg" class="d-block w-100" alt="imagen4">
+              </div>
+              <div class="carrusel carousel-item">
+                <img src="./multimedia/turistico5.jpg" class="d-block w-100" alt="imagen5">
+              </div>
             </div>
-        </div>
-        <div class="todo2">
-        <div>
-            <h2>España</h2>
-            <img class="espana"src="./multimedia/españa.jpg" alt="paisaje de españa">
-            <p class="pespana">  España es un país turístico con una desarrollada infraestructura en 
-                el sector servicios, situándose entre los tres más visitados del mundo, al que acuden 
-                anualmente millones de viajeros atraídos por sus playas y agradable clima, el abundante 
-                patrimonio artístico del país y la riqueza gastronómica.
-            </p>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
-        <a href="./paginas/sucursales.html">
-            <input class="compra2" type="button" value="Comprar">
+          
+            <h2 class="lugares">     Lugares       </h2> 
+   <div class="todo">
+        <div class="to tod todo1">
+            <a class="link link1" href="./paginas/sucursales.html">
+            
+            <img class="brasil"src="./multimedia/brasil.jpg" alt="paisaje de brasil">
+            <h2>Brasil</h2>
+            <div class="espacio"></div>
+                <hr> 
+                <h5>Precio</h5>
+                <h2>$ 225.990</h2>
+        
+      
+            
             </a>
+            
         </div>
-    </div>
-    <div class="todo3">
-        <div>
-            <h2>Japon</h2>
-            <img class="japon"src="./multimedia/japon.jpg" alt="paisaje de japon">
-            <p class="pjapon"> Japón cuenta con 19 sitios del patrimonio mundial, incluyendo el 
-                castillo de Himeji, los monumentos históricos de la antigua Kioto y Nara. Las atracciones 
-                turísticas más populares incluyen Tokio e Hiroshima, el Monte Fuji, estaciones de esquí 
-                como Niseko en Hokkaido, la isla de Okinawa.</p>
-
-        <a href="./paginas/sucursales.html">
-        <input class="compra3" type="button" value="Comprar">
-        </a>
-        </div>
-    </div>
-   
+        <div class="to tod todo2">
+            <a class="link link2" href="./paginas/sucursales.html">
+            
+            <img class="espana"src="./multimedia/españa.jpg" alt="paisaje de españa">
+            <h2>España</h2>
+            <div class="espacio"></div>
+            <hr> 
+            <h5>Precio</h5>
+            <h2>$ 475.990</h2>
         
+     
+         
+            </a>
+     
+    </div>
+    <div class="to tod todo3">
+        <a class="link link3" href="./paginas/sucursales.html">
+            <img class="japon"src="./multimedia/japon.jpg" alt="paisaje de japon">
+            <h2>Japon</h2>
+            <div class="espacio"></div>
+            <hr> 
+            <h5>Precio</h5>
+            <h2>$ 514.999</h2>
+        </a>
+      
+    </div>
+    <div class="to tod todo4">
+        <a class="link link4" href="./paginas/sucursales.html"> 
+        <img class="francia"src="./multimedia/francia.jpg" alt="paisaje de francia">
+        <h2>Francia</h2>
+        <div class="espacio"></div>
+       <hr> 
+       <h5>Precio</h5>
+       <h2>$ 425.990</h2>
+        
+        </a>
+    
+    </a>
+</div>
+
 
     </main>
-    <footer>
-
+    <footer class="pie">
+        <div class="info">
+            <img class="logo-footer" src="./multimedia/favicon.jpg">
+            <h2>Informacion</h2>
+            <p>"Una de las ventajas de viajar con nuestra empresa es la amplia red de rutas que 
+                conectan diferentes ciudades y países. Ya sea que estés planeando unas 
+                vacaciones en una playa exótica, un viaje de negocios o una visita a familiares y 
+                amigos en otro continente, hay una amplia variedad de opciones disponibles para ti".</p>
+        </div>
+        <div class="pg">
+        <h2>Preguentas Frecuentes</h2>
+    <a  href="">
+        <ul>
+            <li>
+                ¿Cuáles son las opciones de destinos disponibles?
+            </li>
+            <li>
+                ¿Cuál es el proceso de reserva de vuelos?
+            </li>
+            <li>
+                ¿Cuál es la política de cambios y cancelaciones de vuelos?
+            </li>
+            <li>
+                ¿Qué documentación se requiere para viajar?
+            </li>
+            <li>
+                ¿Cuál es la franquicia de equipaje permitida?
+            </li>
+            <li>
+                ¿Cuáles son las opciones de servicio a bordo?
+            </li>
+        </ul>
+    </a>
+    </div>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/">
+            <i class="ig fa-brands fa-instagram fa-2xl"></i>
+        </a>
+            <a href="https://www.whatsapp.com/?lang=es_LA">
+            <i class="wa fa-brands fa-whatsapp fa-2xl"></i>
+        </a>
+            <a href="https://es-la.facebook.com/">
+            <i class="fb fa-brands fa-facebook fa-2xl"></i>
+        </a>
+        </div>
+        <span class="copyright">© 2023, Viaje Al Mundo, Inc. Todos los derechos reservados. 
+            el logotipo de Viajes Al Mundo. tanto en Argentina como en el resto del mundo. Otras 
+            marcas o nombres de productos son marcas comerciales de sus respectivos propietarios.   </span>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

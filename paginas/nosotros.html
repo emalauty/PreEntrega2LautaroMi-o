@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../codigo.css">
     <link rel="icon" href="../multimedia/favicon.jpg">
    
     <title>Viaje Al Mundo - Nosotros</title>
     <nav>
         <div class="abc">
-        <a class="a" href="../index.html">
-            Inicio
-        </a>
-        <a class="b" href="./nosotros.html">
+            <a class="nav a" href="../index.html">
+                <img class="logo" src="../multimedia/favicon.jpg">
+                </a>
+        <a class="nav b" href="./nosotros.html">
             Nosotros
         </a>
-        <a class="c" href="./sucursales.html">
+        <a class="nav c" href="./sucursales.html">
             Sucursales
         </a>
         </div>
@@ -25,8 +26,18 @@
 
 </head>
 <body>
-    <main>
-        <h1>Alguna consulta?</h1>
+    <div>
+        <h1 class="viaja">Viaja por el mundo!</h1>
+        <section class="galeria">
+            <img class="img1" src="../multimedia/grid1.jpg" alt="">
+            <img class="img2" src="../multimedia/grid2.jpg" alt="">
+            <img class="img3" src="../multimedia/grid3.jpg" alt="">
+            <img class="img4" src="../multimedia/grid4.jpg" alt="">
+            <img class="img5" src="../multimedia/grid5.jpg" alt="">
+        </section>
+        <h2 class="consulta-nosotros">Alguna consulta?</h2>
+     <div class="todo-nosotros">
+        <div class="contacto-nosotros">
         <h2>Contactanos</h2>
         <h3>Telefono:</h3>
         <ul> 
@@ -36,7 +47,8 @@
         <ul> 
             <li class="li">viajealmundosrl@gmail.com</li>
         </ul>
-
+        </div>
+        <div class="problema-nosotros">
         <h2>Tienes problemas con la pagina?</h2>
         <h3 class="problema">Envianos tu problema para solucionarlo
            
@@ -61,14 +73,64 @@
                             Mensaje
                             <input class="mensaje" name="mensaje" placeholder="Escriba su mensaje aqui..." type="text" required>
                         </label>
+                        <button type="button">Enviar</button>
                     </div>
-                </div>
-        
-        
+                </div>    
+            </div>
+        </div>
 
 
 
     </main>
-    
+    <footer class="pie">
+        <div class="info">
+            <img class="logo-footer" src="../multimedia/favicon.jpg">
+            <h2>Informacion</h2>
+            <p>"Una de las ventajas de viajar con nuestra empresa es la amplia red de rutas que 
+                conectan diferentes ciudades y países. Ya sea que estés planeando unas 
+                vacaciones en una playa exótica, un viaje de negocios o una visita a familiares y 
+                amigos en otro continente, hay una amplia variedad de opciones disponibles para ti".</p>
+        </div>
+        <div class="pg">
+        <h2>Preguentas Frecuentes</h2>
+    <a  href="">
+        <ul>
+            <li>
+                ¿Cuáles son las opciones de destinos disponibles?
+            </li>
+            <li>
+                ¿Cuál es el proceso de reserva de vuelos?
+            </li>
+            <li>
+                ¿Cuál es la política de cambios y cancelaciones de vuelos?
+            </li>
+            <li>
+                ¿Qué documentación se requiere para viajar?
+            </li>
+            <li>
+                ¿Cuál es la franquicia de equipaje permitida?
+            </li>
+            <li>
+                ¿Cuáles son las opciones de servicio a bordo?
+            </li>
+        </ul>
+    </a>
+    </div>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/">
+            <i class="ig fa-brands fa-instagram fa-2xl"></i>
+        </a>
+            <a href="https://www.whatsapp.com/?lang=es_LA">
+            <i class="wa fa-brands fa-whatsapp fa-2xl"></i>
+        </a>
+            <a href="https://es-la.facebook.com/">
+            <i class="fb fa-brands fa-facebook fa-2xl"></i>
+        </a>
+        </div>
+        <span class="copyright">© 2023, Viaje Al Mundo, Inc. Todos los derechos reservados. 
+            el logotipo de Viajes Al Mundo. tanto en Argentina como en el resto del mundo. Otras 
+            marcas o nombres de productos son marcas comerciales de sus respectivos propietarios.   </span>
+    </footer>
 </body>
 </html>
